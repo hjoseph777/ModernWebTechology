@@ -22,11 +22,11 @@ Lab3 demonstrates a complete full-stack image gallery application with CRUD oper
 *Complete full-stack application ready to run with Express backend and React frontend*
 
 ## Important: Where your core application logic lives
-- The main Express server is in [`my-react-server/server.js`](my-react-server/server.js) with middleware setup and route configuration
-- The API routes are in [`my-react-server/routes/images.js`](my-react-server/routes/images.js) with complete CRUD operations
-- The main React app is in [`client/src/App.jsx`](client/src/App.jsx) with component orchestration
-- The image gallery component is in [`client/src/components/ImageGallery.jsx`](client/src/components/ImageGallery.jsx) with delete functionality
-- The random dog fetcher is in [`client/src/components/RandomDog.jsx`](client/src/components/RandomDog.jsx) with external API integration
+- The main Express server is in [`Lab3/my-react-server/server.js`](Lab3/my-react-server/server.js) with middleware setup and route configuration
+- The API routes are in [`Lab3/my-react-server/routes/images.js`](Lab3/my-react-server/routes/images.js) with complete CRUD operations
+- The main React app is in [`Lab3/client/src/App.jsx`](Lab3/client/src/App.jsx) with component orchestration
+- The image gallery component is in [`Lab3/client/src/components/ImageGallery.jsx`](Lab3/client/src/components/ImageGallery.jsx) with delete functionality
+- The random dog fetcher is in [`Lab3/client/src/components/RandomDog.jsx`](Lab3/client/src/components/RandomDog.jsx) with external API integration
 
 ## Project Explorer
 An interactive, collapsible view of the codebase. Click file names to open them.
@@ -35,12 +35,12 @@ An interactive, collapsible view of the codebase. Click file names to open them.
    <summary><strong>🖥️ my-react-server/ – Express Backend</strong></summary>
 
    - 📁 <strong>my-react-server</strong>
-      - 🚀 [`server.js`](my-react-server/server.js) – **Main Express server with middleware**
-      - 📦 [`package.json`](my-react-server/package.json) – Server dependencies & scripts
+      - 🚀 [`server.js`](Lab3/my-react-server/server.js) – **Main Express server with middleware**
+      - 📦 [`package.json`](Lab3/my-react-server/package.json) – Server dependencies & scripts
       - 📁 <strong>routes</strong>
-         - 🛣️ [`images.js`](my-react-server/routes/images.js) – **Complete image API (GET, POST, DELETE)**
+         - 🛣️ [`images.js`](Lab3/my-react-server/routes/images.js) – **Complete image API (GET, POST, DELETE)**
       - 📁 <strong>data</strong>
-         - 📊 [`images.json`](my-react-server/data/images.json) – Image metadata storage
+         - 📊 [`images.json`](Lab3/my-react-server/data/images.json) – Image metadata storage
       - 📁 <strong>uploads</strong>
          - 🖼️ *User uploaded images stored here*
 </details>
@@ -49,18 +49,18 @@ An interactive, collapsible view of the codebase. Click file names to open them.
    <summary><strong>⚛️ client/ – React Frontend</strong></summary>
 
    - 📁 <strong>client</strong>
-      - 🏠 [`index.html`](client/index.html) – HTML entry point
-      - ⚙️ [`vite.config.js`](client/vite.config.js) – **Vite config with API proxy**
-      - 📦 [`package.json`](client/package.json) – Client dependencies & scripts
+      - 🏠 [`index.html`](Lab3/client/index.html) – HTML entry point
+      - ⚙️ [`vite.config.js`](Lab3/client/vite.config.js) – **Vite config with API proxy**
+      - 📦 [`package.json`](Lab3/client/package.json) – Client dependencies & scripts
       -  <strong>src</strong>
-         - 🎯 [`App.jsx`](client/src/App.jsx) – **Main React application**
-         - 🎨 [`App.css`](client/src/App.css) – Global application styles
-         - 🔗 [`main.jsx`](client/src/main.jsx) – React DOM entry point
+         - 🎯 [`App.jsx`](Lab3/client/src/App.jsx) – **Main React application**
+         - 🎨 [`App.css`](Lab3/client/src/App.css) – Global application styles
+         - 🔗 [`main.jsx`](Lab3/client/src/main.jsx) – React DOM entry point
          - 📁 <strong>components</strong>
-            - 🖼️ [`ImageGallery.jsx`](client/src/components/ImageGallery.jsx) – **Image gallery with delete**
-            - 🎨 [`ImageGallery.css`](client/src/components/ImageGallery.css) – Gallery styling
-            - 🐕 [`RandomDog.jsx`](client/src/components/RandomDog.jsx) – **Random dog API integration**
-            - 🎨 [`RandomDog.css`](client/src/components/RandomDog.css) – Random dog styling
+            - 🖼️ [`ImageGallery.jsx`](Lab3/client/src/components/ImageGallery.jsx) – **Image gallery with delete**
+            - 🎨 [`ImageGallery.css`](Lab3/client/src/components/ImageGallery.css) – Gallery styling
+            - 🐕 [`RandomDog.jsx`](Lab3/client/src/components/RandomDog.jsx) – **Random dog API integration**
+            - 🎨 [`RandomDog.css`](Lab3/client/src/components/RandomDog.css) – Random dog styling
 </details>
 
 <details>
@@ -74,9 +74,9 @@ An interactive, collapsible view of the codebase. Click file names to open them.
    <summary><strong>📚 Documentation & Config</strong></summary>
 
    - 📝 [`README.md`](README.md) – **Project documentation (this file)**
-   - 📋 [`README.txt`](README.txt) – Plain text submission notes
-   - 📜 [`commands.txt`](commands.txt) – Command reference
-   -  [`Example.md`](Example.md) – Documentation template reference
+   - 📋 [`README.txt`](Lab3/README.txt) – Plain text submission notes
+   - 📜 [`commands.txt`](Lab3/commands.txt) – Command reference
+   -  [`Example.md`](Lab3/Example.md) – Documentation template reference
 </details>
 
 ## 🎯 Demo Gallery
@@ -86,35 +86,35 @@ An interactive, collapsible view of the codebase. Click file names to open them.
 <div align="center">
 
 ### 📸 Screenshot 1: Initial Application Setup
-![Screenshot 1](./images/1screenshot.png)
+![Screenshot 1](Lab3/images/1screenshot.png)
 *Initial application interface and setup*
 
 ### 📸 Screenshot 2: GET API Response
-![Screenshot 2](./images/2screenshot.png)
+![Screenshot 2](Lab3/images/2screenshot.png)
 *GET /api/images endpoint returning JSON array of image objects*
 
 ### 📸 Screenshot 3: Initial Gallery Display  
-![Screenshot 3](./images/3screenshot.png)
+![Screenshot 3](Lab3/images/3screenshot.png)
 *Image gallery showing initial seed data and responsive layout*
 
 ### 📸 Screenshot 4: Random Dog Fetching
-![Screenshot 4](./images/4screenshot.png)
+![Screenshot 4](Lab3/images/4screenshot.png)
 *Random dog image fetched from dog.ceo API ready for upload*
 
 ### 📸 Screenshot 5: Image Upload Process
-![Screenshot 5](./images/5screenshot.png)
+![Screenshot 5](Lab3/images/5screenshot.png)
 *File upload functionality with drag & drop or click to select*
 
 ### 📸 Screenshot 6: Updated Gallery
-![Screenshot 6](./images/6screenshot.png)
+![Screenshot 6](Lab3/images/6screenshot.png)
 *Gallery updated with newly uploaded images showing real-time refresh*
 
 ### 📸 Screenshot 7: Server File Structure
-![Screenshot 7](./images/7screenshot.png)
+![Screenshot 7](Lab3/images/7screenshot.png)
 *Backend uploads directory showing stored image files*
 
 ### 📸 Screenshot 8: POST API Response
-![Screenshot 8](./images/8screenshot.png)
+![Screenshot 8](Lab3/images/8screenshot.png)
 *POST /api/images endpoint response with uploaded image metadata*
 
 </div>
