@@ -190,6 +190,52 @@ Lab3/
 
 ## 🚀 Getting Started
 
+
+| con   | Type    | Path                                         | Purpose                                               | GitHub Link |
+|-------|---------|----------------------------------------------|-------------------------------------------------------|-------------|
+| 🚀    | Server  | my-react-server/server.js                    | Main Express server with CORS & middleware            | [server.js](https://github.com/hjoseph777/ModernWebTechology/blob/main/my-react-server/server.js) |
+| 🛣️    | API     | my-react-server/routes/images.js             | Complete image CRUD operations                        | [images.js](https://github.com/hjoseph777/ModernWebTechology/blob/main/my-react-server/routes/images.js) |
+| 📊    | Data    | my-react-server/data/images.json              | Image metadata persistence                            | [images.json](https://github.com/hjoseph777/ModernWebTechology/blob/main/my-react-server/data/images.json) |
+| 🎯    | App     | client/src/App.jsx                           | Main React application component                      | [App.jsx](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/App.jsx) |
+| 🖼️    | Gallery | client/src/components/ImageGallery.jsx        | Image gallery with delete functionality               | [ImageGallery.jsx](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/components/ImageGallery.jsx) |
+| 🐕    | Fetcher | client/src/components/RandomDog.jsx           | Random dog API integration                            | [RandomDog.jsx](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/components/RandomDog.jsx) |
+| ⚙️    | Config  | client/vite.config.js                        | Vite config with API proxy setup                      | [vite.config.js](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/vite.config.js) |
+| 🎨    | Style   | client/src/components/ImageGallery.css        | Gallery component styling                             | [ImageGallery.css](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/components/ImageGallery.css) |
+| 🎨    | Style   | client/src/components/RandomDog.css           | Random dog component styling                          | [RandomDog.css](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/components/RandomDog.css) |
+| 🎨    | Style   | client/src/App.css                            | Global application styling                            | [App.css](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/App.css) |
+| 🏠    | HTML    | client/index.html                            | HTML entry point                                      | [index.html](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/index.html) |
+| 🔗    | Entry   | client/src/main.jsx                           | React DOM entry point                                 | [main.jsx](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/src/main.jsx) |
+| 📦    | Deps    | my-react-server/package.json                  | Server dependencies & scripts                         | [package.json (server)](https://github.com/hjoseph777/ModernWebTechology/blob/main/my-react-server/package.json) |
+| 📦    | Deps    | client/package.json                           | Client dependencies & scripts                         | [package.json (client)](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/package.json) |
+| 🔍    | Lint    | client/eslint.config.js                       | ESLint configuration                                  | [eslint.config.js](https://github.com/hjoseph777/ModernWebTechology/blob/main/client/eslint.config.js) |
+|       | Docs    | README.md                                     | Project documentation                                 | [README.md](https://github.com/hjoseph777/ModernWebTechology/blob/main/README.md) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Prerequisites
 - Node.js (v18 or higher)
 - npm (v8 or higher)
