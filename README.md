@@ -188,7 +188,8 @@ Lab3/
 | 🔍 | Lint | [`Lab3/client/eslint.config.js`](Lab3/client/eslint.config.js) | ESLint configuration |
 |  | Docs | [`README.md`](README.md) | **Project documentation** |
 
-## 🚀 Getting Started
+
+
 
 ### Prerequisites
 - Node.js (v18 or higher)
