@@ -17,7 +17,7 @@ Lab3 demonstrates a complete full-stack image gallery application with CRUD oper
 
 **Get the complete project instantly:**
 
-[![Download Lab3](https://img.shields.io/badge/Download-Lab3_Express_React-blue?style=for-the-badge&logo=download)](https://github.com/hjoseph777/Lab3/releases/download/v1/Lab3-Express-React.zip)
+[![Download Lab3](https://img.shields.io/badge/Download-Lab3_Express_React-blue?style=for-the-badge&logo=download)](https://github.com/hjoseph777/ModernWebTechology/archive/refs/heads/main.zip)
 
 *Complete full-stack application ready to run with Express backend and React frontend*
 
