@@ -171,21 +171,21 @@ Lab3/
 ### 🎯 Quick Code Reference
 | Icon | Type | Path | Purpose |
 |------|------|------|---------|
-| 🚀 | Server | [`my-react-server/server.js`](my-react-server/server.js) | **Main Express server with CORS & middleware** |
-| 🛣️ | API | [`my-react-server/routes/images.js`](my-react-server/routes/images.js) | **Complete image CRUD operations** |
-| 📊 | Data | [`my-react-server/data/images.json`](my-react-server/data/images.json) | Image metadata persistence |
-| 🎯 | App | [`client/src/App.jsx`](client/src/App.jsx) | **Main React application component** |
-| 🖼️ | Gallery | [`client/src/components/ImageGallery.jsx`](client/src/components/ImageGallery.jsx) | **Image gallery with delete functionality** |
-| 🐕 | Fetcher | [`client/src/components/RandomDog.jsx`](client/src/components/RandomDog.jsx) | **Random dog API integration** |
-| ⚙️ | Config | [`client/vite.config.js`](client/vite.config.js) | **Vite config with API proxy setup** |
-| 🎨 | Style | [`client/src/components/ImageGallery.css`](client/src/components/ImageGallery.css) | Gallery component styling |
-| 🎨 | Style | [`client/src/components/RandomDog.css`](client/src/components/RandomDog.css) | Random dog component styling |
-| 🎨 | Style | [`client/src/App.css`](client/src/App.css) | Global application styling |
-| 🏠 | HTML | [`client/index.html`](client/index.html) | HTML entry point |
-| 🔗 | Entry | [`client/src/main.jsx`](client/src/main.jsx) | React DOM entry point |
-| 📦 | Deps | [`my-react-server/package.json`](my-react-server/package.json) | Server dependencies & scripts |
-| 📦 | Deps | [`client/package.json`](client/package.json) | Client dependencies & scripts |
-| 🔍 | Lint | [`client/eslint.config.js`](client/eslint.config.js) | ESLint configuration |
+| 🚀 | Server | [`Lab3/my-react-server/server.js`](Lab3/my-react-server/server.js) | **Main Express server with CORS & middleware** |
+| 🛣️ | API | [`Lab3/my-react-server/routes/images.js`](Lab3/my-react-server/routes/images.js) | **Complete image CRUD operations** |
+| 📊 | Data | [`Lab3/my-react-server/data/images.json`](Lab3/my-react-server/data/images.json) | Image metadata persistence |
+| 🎯 | App | [`Lab3/client/src/App.jsx`](Lab3/client/src/App.jsx) | **Main React application component** |
+| 🖼️ | Gallery | [`Lab3/client/src/components/ImageGallery.jsx`](Lab3/client/src/components/ImageGallery.jsx) | **Image gallery with delete functionality** |
+| 🐕 | Fetcher | [`Lab3/client/src/components/RandomDog.jsx`](Lab3/client/src/components/RandomDog.jsx) | **Random dog API integration** |
+| ⚙️ | Config | [`Lab3/client/vite.config.js`](Lab3/client/vite.config.js) | **Vite config with API proxy setup** |
+| 🎨 | Style | [`Lab3/client/src/components/ImageGallery.css`](Lab3/client/src/components/ImageGallery.css) | Gallery component styling |
+| 🎨 | Style | [`Lab3/client/src/components/RandomDog.css`](Lab3/client/src/components/RandomDog.css) | Random dog component styling |
+| 🎨 | Style | [`Lab3/client/src/App.css`](Lab3/client/src/App.css) | Global application styling |
+| 🏠 | HTML | [`Lab3/client/index.html`](Lab3/client/index.html) | HTML entry point |
+| 🔗 | Entry | [`Lab3/client/src/main.jsx`](Lab3/client/src/main.jsx) | React DOM entry point |
+| 📦 | Deps | [`Lab3/my-react-server/package.json`](Lab3/my-react-server/package.json) | Server dependencies & scripts |
+| 📦 | Deps | [`Lab3/client/package.json`](Lab3/client/package.json) | Client dependencies & scripts |
+| 🔍 | Lint | [`Lab3/client/eslint.config.js`](Lab3/client/eslint.config.js) | ESLint configuration |
 |  | Docs | [`README.md`](README.md) | **Project documentation** |
 
 ## 🚀 Getting Started
