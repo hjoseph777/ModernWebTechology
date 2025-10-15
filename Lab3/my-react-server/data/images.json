@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "url": "/uploads/seed-dog1.jpg",
+      "source": "seed",
+      "uploadedAt": "2025-10-14T21:24:55.481Z",
+      "filename": "seed-dog1.jpg"
+    },
+    {
+      "id": "2",
+      "url": "/uploads/seed-dog2.jpg",
+      "source": "seed",
+      "uploadedAt": "2025-10-14T21:24:55.483Z",
+      "filename": "seed-dog2.jpg"
+    },
+    {
+      "id": "3",
+      "url": "/uploads/seed-dog3.jpg",
+      "source": "seed",
+      "uploadedAt": "2025-10-14T21:24:55.483Z",
+      "filename": "seed-dog3.jpg"
+    },
+    {
+      "id": "6185f70e-442a-45d1-bb1a-d1dc1d23a67b",
+      "url": "/uploads/1760484691556-f3cfc551-df1f-45f0-8dff-4866ec60577f.jpg",
+      "source": "random-dog",
+      "uploadedAt": "2025-10-14T23:31:31.557Z",
+      "filename": "1760484691556-f3cfc551-df1f-45f0-8dff-4866ec60577f.jpg",
+      "originalName": "random-dog.jpg",
+      "size": 18201,
+      "mimetype": "image/jpeg"
+    },
+    {
+      "id": "12add8ac-e3c1-47a6-9fe0-6e88ec59e6a1",
+      "url": "/uploads/1760485788523-f3c8bc44-39ae-458e-be49-6c9e8be04a1c.jpg",
+      "source": "random-dog",
+      "uploadedAt": "2025-10-14T23:49:48.525Z",
+      "filename": "1760485788523-f3c8bc44-39ae-458e-be49-6c9e8be04a1c.jpg",
+      "originalName": "random-dog.jpg",
+      "size": 38085,
+      "mimetype": "image/jpeg"
+    }
+  ]
+}
